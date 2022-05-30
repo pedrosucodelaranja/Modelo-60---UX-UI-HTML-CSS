@@ -1,0 +1,150 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Roboto&display=swap');
+
+
+
+:root {
+    --cor0: #F2E7DC;
+    --cor1: #A9D9D0;
+    --cor2: #038C7F;
+    --cor3: #027373;
+    
+    --fonte-padrao: Arial,Verdana, Helvetica,sans-serif;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+header  {
+   
+    background-image: url(Imagens/ceu.jpg);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 15px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+header > h1 {
+    color: rgb(252, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: 20px;
+   text-shadow: 2px 2px 0px rgb(39, 38, 38);
+}
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    color: azure;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgb(39, 38, 38);
+}  
+img {
+    height: 200px;
+}
+nav {
+    background-color: #FFBD59;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(51, 51, 51, 0.604);
+    border-radius: 150px;
+}
+nav > a {
+    
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 37px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .6s;
+}
+nav > a:hover {
+    background-color: aliceblue;
+    color:#027373;
+}
+body{
+    background-image:linear-gradient(to left,#f7f0b0,white);
+    font-family: font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.633);
+    border-radius: 10px;
+}
+main h1{
+    color: #FFFFFF;
+    font-family: var(--fonte-padrao);
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 3em;
+    border-radius: 20px;
+}
+main h2{
+    color: #e0992f;
+    text-align: center;
+}
+main img{
+    width: 700px;
+}
+div.video{
+    background-color:#f9f5f0;
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+   
+    position: relative;
+    
+}  
+
+div.video > iframe {
+    position: absolute;
+    top: 5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+div.icons {
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .6s;
+}
+footer {
+    background: #343a40;
+    padding: 2rem 0 4rem;
+    color: #ecf0f1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+ 
+
+    
+
+
+
+
+
+
